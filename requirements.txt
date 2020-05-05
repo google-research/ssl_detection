@@ -1,0 +1,14 @@
+absl-py
+easydict
+cython
+numpy==1.16.4
+tensorflow-gpu==1.14.0
+tqdm
+msgpack
+msgpack_numpy
+tabulate
+pillow
+imgaug==0.4.0
+deepdish
+gast==0.2.2
+scipy
