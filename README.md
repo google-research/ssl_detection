@@ -1,4 +1,4 @@
-# Source code for STAC: [A Simple Semi-Supervised Learning Framework for Object Detection]()
+# Source code for STAC: [A Simple Semi-Supervised Learning Framework for Object Detection](https://arxiv.org/pdf/2005.04757.pdf)
 
 STAC is a simple yet effective SSL framework for visual object detection along
 with a data augmentation strategy. STAC deploys highly confident pseudo labels of
@@ -202,7 +202,7 @@ tensorboard --logdir=${PRJROOT}/detection/train_log
   title={A Simple Semi-Supervised Learning Framework for Object Detection},
   author={Kihyuk Sohn and Zizhao Zhang and Chun-Liang Li and Han Zhang and Chen-Yu Lee and Tomas Pfister},
   year={2020},
-  booktitle={arXiv}
+  booktitle={arXiv:2005.04757}
 }
 ```
 
