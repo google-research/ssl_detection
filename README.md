@@ -4,10 +4,9 @@ STAC is a simple yet effective SSL framework for visual object detection along
 with a data augmentation strategy. STAC deploys highly confident pseudo labels of
 localized objects from an unlabeled image and updates the model by enforcing
 consistency via strong augmentation.
-
+<p align=center>
 <img src="docs/diagram.png" width="800">
-
-__This code is only used for research. This is not an official Google product.__
+</p>
 
 
 # Instruction
@@ -205,6 +204,9 @@ tensorboard --logdir=${PRJROOT}/detection/train_log
   booktitle={arXiv:2005.04757}
 }
 ```
+## Disclaimer
+
+This code is only used for research. This is not an official Google product.
 
 # Acknowledgement
 
