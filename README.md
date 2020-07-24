@@ -64,17 +64,17 @@ wget http://models.tensorpack.com/FasterRCNN/ImageNet-R50-AlignPadding.npz
 
 There are three steps:
 - __1.__ Train a standard detector on labeled data
-(`detection/scripts/coco/train_stg1.sh`).
+[`detection/scripts/coco/train_stg1.sh`](./detection/scripts/coco/train_stg1.sh).
 - __2.__ Predict pseudo boxes and labels of unlabeled
-data using the trained detector (`detection/scripts/coco/eval_stg1.sh`).
+data using the trained detector [`detection/scripts/coco/eval_stg1.sh`](./detection/scripts/coco/eval_stg1.sh).
 - __3.__ Use labeled data and unlabeled data with
 pseudo labels to train a STAC detector
-(`detection/scripts/coco/train_stg2.sh`).
+[`detection/scripts/coco/train_stg2.sh`](./detection/scripts/coco/train_stg2.sh).
 
-Besides instruction at here, __`detection/scripts/coco/train_stac.sh`__
+Besides instruction at here, [__`detection/scripts/coco/train_stac.sh`__](./detection/scripts/coco/train_stac.sh)
 provides a combined script to train STAC.
 
-__`detection/scripts/voc/train_stac.sh`__ is a combined script to train STAC on PASCAL VOC.
+[__`detection/scripts/voc/train_stac.sh`__](./detection/scripts/voc/train_stac.sh) is a combined script to train STAC on PASCAL VOC.
 
 The following example use labeled data as 10% train2017 and rest 90% train2017 data
 as unlabeled data.
