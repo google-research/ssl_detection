@@ -42,6 +42,15 @@ python -c 'import tensorflow as tf; print(tf.__version__)'
 pip3 install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 ```
 
+### Hyun Edit
+하다보니까 짜증나네... Opencv-python 쪽에서 항상 오류남...
+
+이걸 써서 오류 수정하자
+```bash
+pip install --upgrade pip setuptools wheel
+pip install opencv-python
+```
+
 ### (Optional) Install tensorpack
 
 __tensorpack with a compatible version is already included at
