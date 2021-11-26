@@ -28,7 +28,7 @@ python3 train_stg2.py \
     DATA.TRAIN="('${DATASET}',)" \
     DATA.UNLABEL="('${UNLABELED_DATASET}',)" \
     MODE_MASK=False \
-    FRCNN.BATCH_PER_IM=64 \
+    FRCNN.BATCH_PER_IM=1024 \
     PREPROC.TRAIN_SHORT_EDGE_SIZE="[500,800]" \
     TRAIN.EVAL_PERIOD=20 \
     TRAIN.AUGTYPE_LAB='default' \

@@ -128,7 +128,7 @@ _C.DATA.ABSOLUTE_COORD = True
 # Number of data loading workers.
 # In case of horovod training, this is the number of workers per-GPU (so you may want to use a smaller number).
 # Set to 0 to disable parallel data loading
-_C.DATA.NUM_WORKERS = 24
+_C.DATA.NUM_WORKERS = 192
 
 # backbone ----------------------
 _C.BACKBONE.WEIGHTS = ''

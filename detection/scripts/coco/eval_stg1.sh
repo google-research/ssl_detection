@@ -26,7 +26,7 @@ fi
 # Evaluate the model for sanity check
 python3 predict.py \
     --evaluate ${PSEUDO_PATH}/eval.json \
-    --load "${CKPT_PATH}"/model-180000 \
+    --load "${CKPT_PATH}"/model-170000 \
     --config \
     DATA.BASEDIR=${COCODIR} \
     DATA.TRAIN="('${UNLABELED_DATASET}',)"
@@ -34,7 +34,7 @@ python3 predict.py \
 # Extract pseudo label
 python3 predict.py \
     --predict_unlabeled ${PSEUDO_PATH} \
-    --load "${CKPT_PATH}"/model-180000 \
+    --load "${CKPT_PATH}"/model-170000 \
     --config \
     DATA.BASEDIR=${COCODIR} \
     DATA.TRAIN="('${UNLABELED_DATASET}',)" \
