@@ -1,7 +1,7 @@
 absl-py
 easydict
 cython
-numpy==1.16.4
+numpy==1.22.0
 tensorflow-gpu==1.14.0
 tqdm
 msgpack
